@@ -102,36 +102,72 @@
     </div>
   </section>
 
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="py-5 text-white bg-purple">
-    <div class="container text-center">
-      <h2>Testimonials</h2>
-      <div class="carousel slide" id="carouselTestimonials" data-ride="carousel">
-        <div class="carousel-inner">
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 text-white bg-purple">
+      <div class="container text-center">
+        <h2>Testimonials</h2>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+          <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner text-center">
           <div class="carousel-item active">
-            <p>"An awesome theme with great support. I was able to build a beautiful website easily!"</p>
-            <h5>Mike Muller</h5>
+            <img class="d-block mx-auto w-50" src="images/carousel1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p>Description for First Slide</p>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <img class="d-block mx-auto w-50" src="images/carousel2.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second Slide</h5>
+              <p>Description for Second Slide</p>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <img class="d-block mx-auto w-50" src="images/carousel3.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third Slide</h5>
+              <p>Description for Third Slide</p>
+            </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Services Section -->
   <section id="services" class="py-5">
     <div class="container text-center">
       <h2>Services</h2>
+      <h4>In order to help you grow your business, our carefully selected experts can advise you in in the following areas:</h4>
       <div class="row mt-4">
         <div class="col-md-4">
-          <h4>Web Design</h4>
+          <div class="text-warning">
+          <h4 class="display-4 font-weight-light">Web Design</h4>
+          </div>
           <p>Customizable web design with modern layouts and typography.</p>
         </div>
         <div class="col-md-4">
-          <h4>Web Development</h4>
+          <div class="text-danger">
+            <h4 class="display-4 font-weight-light">Web Dev</h4>
+            </div>
           <p>Robust web development solutions for any business.</p>
         </div>
         <div class="col-md-4">
-          <h4>SEO Analysis</h4>
+          <div class="text-success">
+            <h4 class="display-4 font-weight-light">SEO</h4>
+            </div>
           <p>Boost your website's ranking with our SEO optimization services.</p>
         </div>
       </div>
@@ -139,21 +175,37 @@
   </section>
 
   <!-- Latest News Section -->
-  <section id="latest-news" class="py-5 bg-light">
+  <section id="latest-news" class="py-5 bg-dark text-white">
     <div class="container text-center">
       <h2>Latest News</h2>
+      <h4>If you are interested in the latest articles in the industry, take a sneak peek at our blog. You have nothing to loose!</h4>
       <div class="row mt-4">
         <div class="col-md-4">
-          <h5>SEO Friendly</h5>
-          <p>This theme is optimized for search engines.</p>
+          <div class="card">
+            <img src="images/project4.png" class="card-img-top" alt="SEO Friendly">
+            <div class="card-body">
+              <h5 class="card-title text-dark">SEO Friendly</h5>
+              <p class="card-text text-dark">This theme is optimized for search engines.</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-4">
-          <h5>Stunning One Page</h5>
-          <p>One-page WordPress theme for businesses.</p>
+          <div class="card">
+            <img src="images/project4.png" class="card-img-top" alt="Stunning One Page">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Stunning</h5>
+              <p class="card-text text-dark">One-page WordPress theme</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-4">
-          <h5>Hello world!</h5>
-          <p>Our first post introducing this theme.</p>
+          <div class="card">
+            <img src="images/project2.png" class="card-img-top" alt="Hello World">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Hello World!</h5>
+              <p class="card-text text-dark">Our first post introducing this theme.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
