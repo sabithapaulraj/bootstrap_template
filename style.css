@@ -28,4 +28,49 @@ body {
   
   .card:hover { 
     transform: scale(1.05);}
-  
+
+  .stats {
+    background-color: #f2a900;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .stats h2 {
+      font-size: 40px;
+      margin-bottom: 0;
+  }
+  .team {
+    text-align: center;
+    padding: 50px 0;
+}
+ .team img {
+     border-radius: 50%;
+     width: 120px;
+     height: 120px;
+}
+.contact-form {
+  padding: 50px 0;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+}
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+.footer ul li {
+  margin-bottom: 10px;
+}
